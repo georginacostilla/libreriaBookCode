@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 30rem;
+}
+
+.botonlogin {
+    margin-top: 20px;
+    background-color: #778899;
+}
+.botonlogin:hover {
+    background-color: #FA3F3F;
+}
