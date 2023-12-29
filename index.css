@@ -1,3 +1,22 @@
+:root {
+	--color-background: #;
+	--color-primary: #;
+	--font-color-primary: #ffffff;
+	--font-color-secondary: #;
+	--font-principal: ;
+	--font-secundaria: ;
+	--font-size-title:
+	--font-size-title-tablet:
+	--font-size-title-desktop:
+	--font-size-subtitle:
+	--font-size-subtitle-tablet:
+	--font-size-subtitle-desktop:
+	--font-size-parrafo:
+	--font-size-parrafo-tablet:
+	--font-size-parrafo-desktop:
+	--font-size-bottom:
+}
+
 *{
     padding: 0;
     margin: 0;
