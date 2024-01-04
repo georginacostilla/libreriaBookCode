@@ -1,21 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .formulario {
     background-color: #f0f6ff;
-    border-radius: 4%
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
+.formulario:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
 
 .imagenbanner {
-    border-radius: 40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.botonenviarcontact{
+.imagenbanner:hover {
+    transform: scale(1.1);
+}
+
+.botonenviarcontact {
     margin: 20px;
     background-color: #FA3F3F;
     padding: 12px;
-    width: 400px;
+    width: 100%;
     color: white;
-}
-.botonenviarcontact:hover{
-   background-color: #FABA26;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
+.botonenviarcontact:hover {
+    background-color: #FABA26;
+}
+
+.redessociales {
+    color: #333; /* Cambia el color de las redes sociales */
+    transition: color 0.3s ease-in-out;
+}
+
+.redessociales:hover {
+    color: #FA3F3F; /* Cambia el color al pasar el ratón */
+}
