@@ -7,22 +7,21 @@
 .container {
     width: 80%;
     margin: 0 auto;
-}
-
-.contenedor {
-    background-color: rgb(211, 211, 211);
+    background-color: #efefef ;
     border-radius: 20px;
     transition: box-shadow 0.3s ease-in-out; 
 }
+
 
 .container:hover  {
     box-shadow: 0px 5px 15px red;
 }
 
 .botonregis {
-    background-color: #778899;
+    background-color: red;
+    color: white;
 }
 
 .botonregis:hover {
-    background-color: #FA3F3F;
+    background-color: #FABA26;
 }
