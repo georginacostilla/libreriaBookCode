@@ -6,45 +6,52 @@
     width: 30rem;
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px 0px #777;
+    box-shadow: 0px 0px 15px 0px var(--fuente-color-secundarioDos);
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 25px 0px red;
+    box-shadow: 0px 0px 25px 0px var(--color-secundarioDos);
 }
 
 .botonlogin {
     margin-top: 20px;
-    background-color: #778899;
+    background-color: var(--color-secundarioDos);
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
 }
 
 .botonlogin:hover {
-    background-color: var(--color-secundarioDos);
+    background-color: var(--color-secundario);
 }
 
 .imagenbannerlogin {
     width: 100%;
     max-width: 450px;
     border-radius: 15px;
-    /* Agregamos bordes redondeados a la imagen */
     transition: transform 0.3s ease-in-out;
 }
 
 .imagenbannerlogin:hover {
     transform: scale(1.05);
-    /* Efecto de escala al pasar el ratón */
+
 }
 
 .avatarusuario {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .bi-person-circle {
     font-size: 50px;
-    color: #777;
+    color: var(--fuente-color-secundarioDos);
+}
+
+.links{
+    text-decoration: none;
+    color: var(--color-primario);
+}
+.links:hover{
+    color: var(--color-secundarioDos);
 }
