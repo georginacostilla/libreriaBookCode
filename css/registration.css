@@ -3,7 +3,8 @@
 	background-color: var(--fuente-color-primario);
 	border-radius: 20px;
 	transition: box-shadow 0.3s ease-in-out;
-	border: black;
+    border: 2px solid var(	--fuente-color-secundarioDos);
+	
 }
 
 
