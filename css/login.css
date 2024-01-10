@@ -48,10 +48,11 @@
     color: var(--fuente-color-secundarioDos);
 }
 
-.links{
+.links {
     text-decoration: none;
     color: var(--color-primario);
 }
-.links:hover{
+
+.links:hover {
     color: var(--color-secundarioDos);
 }

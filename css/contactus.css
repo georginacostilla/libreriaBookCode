@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -28,14 +26,12 @@
     transition: transform 0.1s ease-in-out;
 }
 
-
-
 .botonenviarcontact {
     margin: 20px;
     background-color: var(--color-secundarioDos);
     padding: 12px;
     width: 80%;
-    color: var(	--fuente-color-primario);
+    color: var(--fuente-color-primario);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -47,10 +43,10 @@
 }
 
 .redessociales {
-    color: var(--fuente-color-secundarioDos); 
+    color: var(--fuente-color-secundarioDos);
     transition: color 0.3s ease-in-out;
 }
 
 .redessociales:hover {
-    color: var(--color-secundarioDos); 
+    color: var(--color-secundarioDos);
 }
