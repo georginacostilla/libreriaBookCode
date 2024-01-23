@@ -1,5 +1,5 @@
 .container {
-    border: 10px solid transparent;
+    border: 1px solid black;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -11,6 +11,11 @@
     transition: 1.5s ease;
   }
   
+  .containercomentarios{
+    background-color: white;
+    
+
+  }
   .img-fluid.estiloimg {
     transition: transform 0.5s ease;
   }
