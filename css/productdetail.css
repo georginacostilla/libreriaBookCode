@@ -1,5 +1,5 @@
 .container {
-    border: 1px solid black;
+    border: 1px solid var(--fuente-color-secundario);
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -34,9 +34,9 @@
   }
   
   .estilotitulo:hover {
-    color: red;
+    color: var(--color-secundarioDos);
     transition: box-shadow 0.3s ease-in-out;
-    box-shadow: 0px 0px 20px 10px gray;
+    box-shadow: 0px 0px 20px 10px var(--fuente-color-secundarioDos);
   }
   
   .botondetalle {
@@ -93,7 +93,7 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: var(--fuente-color-primario);
     background-color: var(--color-secundarioDos); 
     border-radius: 10px;
     overflow: hidden;

@@ -1,36 +1,27 @@
-body {
-	margin-bottom: 100px; /* Ajusta este valor según sea necesario */
-}
-
-.container {
-	width: 100%;
+.containerregistro {
+	width: 80%;
 	background-color: var(--fuente-color-primario);
 	border-radius: 20px;
 	transition: box-shadow 0.3s ease-in-out;
-	border: 2px solid var(--fuente-color-secundarioDos);
+	border: 2px solid black;
+	margin: 0 auto; 
+	padding: 10px;
 }
 
-.container:hover {
+.containerregistro:hover {
 	box-shadow: 0px 5px 15px var(--color-secundarioDos);
 }
 
-.botonregis {
-	background-color: var(--color-secundarioDos);
-	color: var(--fuente-color-primario);
-}
-
-.botonregis:hover {
-	background-color: var(--color-secundario);
-}
-
-.tituloregistro {
-	padding: 15px;
+.registro-container {
+	margin-top: 50px; 
+	margin-bottom: 50px; 
 }
 
 .black-link {
 	color: var(--fuente-color-secundario);
-  }
-  
-  .black-link:hover {
+}
+
+.black-link:hover {
 	color: var(--fuente-color-secundarioDos);
-  }
+}
+
