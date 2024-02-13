@@ -6,7 +6,7 @@
 	--fuente-color-primario: #ffffff;
 	--fuente-color-secundario: #000;
 	--fuente-color-secundarioDos: #696969;
-	--fuente-principal:'Roboto Condensed', sans-serif;
+	--fuente-principal: 'Roboto Condensed', sans-serif;
 	--fuente-secundaria: ;
 	--fuente-tamanio-titulo: 2rem;
 	--fuente-tamanio-titulo-tablet: 2.5rem;
@@ -28,7 +28,7 @@ body {
 	background-color: var(--color-fondo);
 }
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -52,4 +52,38 @@ body {
 	font-family: var(--fuente-secundaria);
 	font-size: var(--fuente-tamanio-parrafo);
 	line-height: 2rem;
+}
+
+.imgLogo{
+	width: 200px;
+}
+
+/* estilos de upperSection */
+
+.disenoImg {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+.disenoImg img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.disenoImg img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.containerDiseno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
