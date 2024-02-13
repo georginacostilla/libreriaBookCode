@@ -53,3 +53,37 @@ body {
 	font-size: var(--fuente-tamanio-parrafo);
 	line-height: 2rem;
 }
+
+.imgLogo{
+	width: 200px;
+}
+
+/* estilos de upperSection */
+
+.disenoImg {
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+.disenoImg img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.disenoImg img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.containerDiseno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
