@@ -1,8 +1,6 @@
 ## Proyecto: Librería en línea "Book code"
 
-### 💻 Práctica de maquetado y diseño de: 
-
-Georgina Costilla y Maxi Giordani
+### 💻 Práctica de maquetado y diseño de: Georgina Costilla y Maxi Giordani
 
 ### Tecnologías utilizadas
 
