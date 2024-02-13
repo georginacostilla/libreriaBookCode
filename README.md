@@ -1,7 +1,6 @@
 ## 💻 Proyecto de práctica de maquetado y diseño de: 
 
-- Georgina Costilla
-- Maxi Giordani
+Georgina Costilla y Maxi Giordani
 
 ## Tecnologías utilizadas
 
