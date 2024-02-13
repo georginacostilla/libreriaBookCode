@@ -22,14 +22,14 @@
 }
 
 .btn-reg {
-    background-color: #0f3e8d;
+    background-color: var(--color-secundarioDos);
     color: white;
     text-align: center;
     width: 200px;
 }
 
 .btn-reg:hover {
-    background-color: #08266f;
+    background-color: var(--color-secundarioDos);
     color: white;
 }
 

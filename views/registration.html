@@ -16,11 +16,34 @@
     href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Roboto+Mono&family=Satisfy&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="../main.css">
   <title>Proyecto: Librería Book Code</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid m-2">
+      <img src="../img/logo-removebg.png" class="navbar-brand imgLogo" href="../index.html" alt="logoDeBookCode">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../views/Contactus.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../views/login.html">Iniciar sesión</a>
+          </li>
+        </ul>
+        <form class="d-flex w-50" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
   <div class=" container mt-5 ">
     <div class="text-center mt-4 tituloregistro">
@@ -78,10 +101,48 @@
     </form>
     <div class="text-center ">
       <button type="submit" class="btn botonregis">Crear Cuenta</button>
-      <p class="mt-3">¿Ya tienes cuenta? <a href="#" id="linkIniciarSesion">Iniciar Sesión</a></p>
+      <p class="mt-3">¿Ya tienes cuenta? <a href="../views/login.html" id="linkIniciarSesion">Iniciar Sesión</a></p>
     </div>
   </div>
 
+  <footer class="mt-5 p-5 fondoColor">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="../img/logoNegro.png" class="w-50" alt="Logo de Book code">
+        </div>
+        <div class="col-md-4 mt-5 colorLetra">
+          <h4>Información</h4>
+          <hr>
+          <ul class="list-unstyled">
+            <li><a href="../views/error404.html">Preguntas frecuentes</a></li>
+            <hr>
+            <li><a href="../views/error404.html">Términos y condiciones</a></li>
+            <hr>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-4">
+          <ul class="list-unstyled">
+            <li class="mt-3">
+              <a href="../views/error404.html" class="imgLogo"><i class="bi bi-envelope-at-fill"></i></a>
+            </li>
+            <li class="mt-3">
+              <a href="../views/error404.html" class="imgLogo"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="mt-3">
+              <a href="../views/error404.html" class="imgLogo"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="mt-3">
+              <a href="../views/error404.html" class="imgLogo"><i class="bi bi-twitter-x"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row text-center mt-5 colorLetra">
+        <p> &copy; Book code 2024 - Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
