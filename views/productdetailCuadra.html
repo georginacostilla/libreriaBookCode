@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Georgina Costilla y Maxi Giordani">
+  <meta name="description" content="Proyecto: Book Code">
+  <meta name="keywords" content="HTML, CSS, bootstrap 5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto: Librería Book Code</title>
+  <link rel="icon" href="../img/logoDos.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet"> <!--Link de google fonts-->
+  <link href="./main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/css/productdetail.css">
+  <link rel="stylesheet" href="../main.css">
+  <title>Proyecto: Librería Book Code</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid m-2">
+      <a href="/index.html" class="navbar-brand">
+        <img src="../img/logo-removebg.png" class="imgLogo" alt="logoDeBookCode">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse subtitulo" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/views/Contactus.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/views/login.html">Iniciar sesión</a>
+          </li>
+        </ul>
+        <form class="d-flex w-50" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success botonBuscar" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="/img/libroCuadra.png" alt="Portada del Libro" class="img-fluid estiloimg">
+     
+        <div class="libro-animado">
+          <img src="/img/logorem.png" alt="Libro Animado">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h1 class="mb-5 mt-5 estilotitulo">CUADRA</h1>
+        <p class="estiloparrafo">Autor: Maximo Chenin</p>
+        <p class="estiloparrafo">Género: Novela</p>
+        <p class="estiloparrafo">Descripción: Con una energía y un dolor latentes, como si no hubieran transcurrido veinticinco años desde la muerte de su hermano, el narrador recuerda cómo fue crecer en Aranjuez, su barrio, en la turbulenta Medellín de finales de los años ochenta. Acorralados por la pobreza, el tedio y la desesperanza, los adolescentes de la cuadra no tenían otra alternativa que la violencia: 
+            para ser alguien debían empuñar un arma, sin importarles que a la vuelta los esperara, inevitablemente, la muerte.</p>
+        <p class="estiloparrafo"> Editorial: Random House (2016) </p>
+        <p class="estiloparrafo">Idioma: Español </p>
+        <div class="justify-content-center"> 
+          <a href="/views/error404.html" class="boton-descarga">Descargar libro PDF</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+ <div class="mt-5 container containercomentarios">
+  <h3 class="comentariostitulo text-center">Comentarios</h3>
+
+
+  <form class="form-group ">
+    <div class="mb-3">
+      <label for="comentario" class="form-label">Comenta aquí</label>
+      <textarea class="form-control" id="comentario" rows="5" required></textarea>
+    </div>
+    <div class="d-flex justify-content-end estilobotoncomentarios"> 
+      <a href="/views/error404.html" class="btn botoncomentar mx-2">Comentar</a>
+      <a href="/views/error404.html" class="btn botoncomentar">Cancelar</a>
+    </div>
+    
+  </form>
+
+ 
+  <div class="mt-5 ">
+    <div class="card cardestilo ">
+      <div class="card-body cardcuerpo">
+        <img src="/img/usuario1.jpg" alt="Foto de Perfil" class="rounded-circle usuarioimagen">
+        <h4>Carlos Rodriguez</h4>
+        <p class="card-text">Excelente libro, muy recomendable.</p>
+        <small class="text-muted">Hace 30 minutos</small>
+      </div>
+    </div>
+    <div class="card cardestilo">
+      <div class="card-body cardcuerpo">
+
+        <img src="/img/usuario2.jpeg" alt="Foto de Perfil" class="rounded-circle usuarioimagen">   
+         <h4>Patricia Perez</h4>
+        <p class="card-text">Sinceramente  es un libro decepcionante, no lo recomiendo.</p>
+        <small class="text-muted">Hace 120 minutos</small>
+      </div>
+    </div>
+    <div class="card cardestilo">
+      <div class="card-body cardcuerpo">
+  
+        <img src="/img/usuario3.avif" alt="Foto de Perfil" class="rounded-circle usuarioimagen">
+        <h4>Benito Giovanne</h4>
+        <p class="card-text">Una genialidad, para leerlo en unos dias, debe ser lectura obligada.</p>
+        <small class="text-muted">Hace 150 minutos</small>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="mt-5 p-5 fondoColor">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../img/logoNegro.png" class="w-100" alt="Logo de Book code">
+      </div>
+      <div class="col-md-4 mt-5 colorLetra">
+        <h4>Información</h4>
+        <hr>
+        <ul class="list-unstyled">
+          <li><a href="../views/error404.html">Preguntas frecuentes</a></li>
+          <hr>
+          <li><a href="../views/error404.html">Términos y condiciones</a></li>
+          <hr>
+        </ul>
+      </div>
+      <div class="col-md-4 mt-4">
+        <ul class="list-unstyled">
+          <li class="mt-3">
+            <a href="../views/error404.html" class="imgLogo"><i class="bi bi-envelope-at-fill"></i></a>
+          </li>
+          <li class="mt-3">
+            <a href="../views/error404.html" class="imgLogo"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li class="mt-3">
+            <a href="../views/error404.html" class="imgLogo"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="mt-3">
+            <a href="../views/error404.html" class="imgLogo"><i class="bi bi-twitter-x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-5 colorLetra">
+      <p> &copy; Book code 2024 - Todos los derechos reservados</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
