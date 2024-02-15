@@ -134,3 +134,7 @@ height: 50px;
   .botoncomentar:hover {
     background-color: var(--color-secundarioDos) ;
   }
+  .card-text{
+    font-size: 20px;
+   
+  }
