@@ -146,10 +146,11 @@ h6 {
 
 .colorLetra {
 	color: var(--fuente-color-primario);
+	font-size: 25px;
 }
 
 .imgLogo {
-	font-size: 25px;
+	font-size: 40px;
 	color: var(--fuente-color-primario);
 }
 
